@@ -1,0 +1,15 @@
+{
+  "name": "accessibility-test-suite",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Automated WCAG 2.1 AA accessibility tests using Playwright and axe-core",
+  "scripts": {
+    "test": "playwright test",
+    "smoke": "playwright test --grep @smoke",
+    "regression": "playwright test --grep @regression"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.0",
+    "@playwright/test": "^1.49.0"
+  }
+}
