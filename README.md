@@ -1,5 +1,7 @@
 # accessibility-test-suite
 
+> **Archived (read-only).** This was an early standalone suite and is kept as it was. The maintained accessibility work is [a11y-aoda-audit](https://github.com/rizvihiqrar/qa-automation-platform/tree/main/packages/a11y-aoda-audit) in [qa-automation-platform](https://github.com/rizvihiqrar/qa-automation-platform): a before/after audit of a demo store against WCAG 2.0 AA (the standard Ontario's AODA requires), including two issues axe-core misses.
+
 ![CI](https://github.com/rizvihiqrar/accessibility-test-suite/actions/workflows/playwright.yml/badge.svg)
 
 Automated accessibility tests using Playwright and [axe-core](https://github.com/dequelabs/axe-core). The suite scans three pages for WCAG 2.0 Level A and AA violations, checks ARIA labeling and keyboard navigation on the login form, and includes a negative control that proves the scanner catches a known gap.
